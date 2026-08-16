@@ -19,5 +19,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["tensorflow==2.0.0a0" if ( sys.platform.startswith("mac") or sys.platform.startswith("darwin")) else "tensorflow-gpu==2.0.0a0"]
+    install_requires=["tensorflow==2.0.0a0" if ( sys.platform.startswith("mac") or sys.platform.startswith("darwin")) else "tensorflow-gpu==2.12.0"]
 )
